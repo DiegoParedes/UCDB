@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HelloWord</title>
+    <script src="../script/angular.min.js"></script>
+    <script src="../app.js"></script>
+    <script src="../controllers/pedidosController.js"></script>
+</head>
+<body>
+    <h1>Produto</h1>
+
+    <table>
+        <tr>
+            <th>Nome do Produto</th>
+            <td ng-bind="produto.Nome"></td>
+        </tr>
+        <tr>
+            <th>Valor</th>
+            <td ng-bind="produto.Valor"></td>
+        </tr>
+        <tr>
+            <th>Data</th>
+            <td ng-bind= produto.Vencimento ></td>
+        </tr>
+    </table>
+</body>
+</html>
